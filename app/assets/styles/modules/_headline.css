@@ -28,6 +28,14 @@
         }
     }
 
+    &--no-t-margin {
+        margin-top: 2rem;
+
+        @mixin atSmall {
+            margin-top: 0;
+        }
+    }
+
     &--narrow {
         max-width: 500px;
         margin-left: auto;
